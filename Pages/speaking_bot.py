@@ -19,7 +19,7 @@ from google.cloud import speech_v1p1beta1
 embedding_file = 'Bot_folder/' + st.session_state.Bot_name + '/embedding.pkl'
 #FILE_PATH = 'Bot_folder/' + st.session_state.Bot_name + "/"+ +"memory.pkl"
 mp3_path = 'Bot_folder/' + st.session_state.Bot_name + "/output.mp3"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "Mention your api key here"
 
 def load_memory(FILE_PATH):
     if not os.path.exists(FILE_PATH):
